@@ -1,0 +1,20 @@
+.mainMenu {
+    list-style-type: none;
+    position: absolute;
+    top: calc(10vh - 15px);
+    right: calc(10vw - 100px);
+    background-color: #FFF;
+    padding: 15px 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
+}
+
+.mainMenu svg {
+    width: 30px;
+    height: 50px;
+    fill: #b5b6b7;
+}
+
+.mainMenu .active {
+    fill: #fea621;
+}
