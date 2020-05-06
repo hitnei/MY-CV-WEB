@@ -9,6 +9,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     opacity: 0.5;
+    position: absolute;
 }
 
 /* @-webkit-keyframes bgAnimation {

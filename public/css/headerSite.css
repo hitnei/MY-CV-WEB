@@ -1,0 +1,129 @@
+.headerSite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 30px 15px;
+    min-width: 380px;
+    width: 380px;
+    box-sizing: border-box;
+}
+
+.headerSite .headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerSite .headerContent .headerPhoto {
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.headerSite .headerContent .headerPhoto::after {
+    position: absolute;
+    opacity: 0.3;
+    border-radius: 300px;
+    content: '';
+    height: 200px;
+    width: 200px;
+    background-image: -webkit-repeating-radial-gradient(center center, #fff, #fff 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+    z-index: -1;
+    margin: 10px -180px;
+}
+
+.headerSite .headerContent .headerPhoto img {
+    max-width: 180px;
+    border-radius: 100px;
+    z-index: 1;
+    border: 3px solid #fff;
+}
+
+.headerSite .headerContent .headerTitle {
+    text-align: center;
+    color: #FFF;
+}
+
+.headerSite .headerContent .headerTitle h2 {
+    font-size: 26px;
+    margin: 20px 0 10px;
+}
+
+.headerSite .headerContent .headerTitle h4 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.headerSite .headerContent .headerSocial {
+    margin: 20px 0;
+}
+
+.headerSite .headerContent .headerSocial ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headerSite .headerContent .headerSocial ul li {
+    display: inline-block;
+}
+
+.headerSite .headerContent .headerSocial ul li:last-child {
+    margin-right: 0px;
+}
+
+.headerSite .headerContent .headerSocial ul li a {
+    color: #FFF;
+    font-size: 18px;
+    opacity: 0.9;
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+.headerSite .headerContent .headerSocial ul li a:hover {
+    opacity: 1;
+    background-color: rgba(255,255,255,.2);
+    transition: all 1s;
+}
+
+.headerSite .headerContent .downloadCV {
+    margin-top: 50px;
+}
+
+.headerSite .headerContent .downloadCV:hover {
+    margin-top: 50px;
+}
+
+.headerSite .headerContent .downloadCV input {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: unset;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    transition: background-color 0.5s, color 1s;
+    box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, .22);
+}
+
+.headerSite .headerContent .downloadCV input[value] {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.headerSite .headerContent .downloadCV input:hover {
+    background-color: #fff;
+    color: #fea621;
+    transition: background-color 0.5s, color 1s;
+}
+
+.headerSite .headerContent .downloadCV input:focus {
+    outline: unset;
+}
+
+.headerSite .copyrights {
+    font-size: 11px;
+    font-weight: 600;
+    color: #FFF;
+}
