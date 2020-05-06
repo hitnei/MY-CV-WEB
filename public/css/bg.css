@@ -1,0 +1,32 @@
+.background {
+    background-image: url('/public/images/main_bg.png');
+    background-color: #ffe1d1;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    animation-name: bgAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0.5;
+}
+
+/* @-webkit-keyframes bgAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {}
+}
+
+@keyframes bgAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {}
+} */
