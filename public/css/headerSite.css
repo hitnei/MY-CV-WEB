@@ -118,9 +118,9 @@
     transition: background-color 0.5s, color 1s;
 }
 
-.headerSite .headerContent .downloadCV input:focus {
+/* .headerSite .headerContent .downloadCV input:focus {
     outline: unset;
-}
+} */
 
 .headerSite .copyrights {
     font-size: 11px;

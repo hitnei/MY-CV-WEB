@@ -38,6 +38,10 @@
     justify-content: center;
 }
 
+/* .mainMenu .itemMenu:focus {
+    outline: unset;
+} */
+
 .mainMenu .itemMenu:hover .linkText {
     right: 70px;
     opacity: 1;

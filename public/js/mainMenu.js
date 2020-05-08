@@ -1,10 +1,10 @@
-var liInMainMenu = document.querySelectorAll(".mainMenu li")
-var nameIconSelected = "homeIcon"
+var listLi = document.querySelectorAll(".mainMenu li")
+var nameIconSelected = "home"
 
-liInMainMenu.forEach(function (li) {
+listLi.forEach(function (li) {
     li.addEventListener('click', function () {
         // remove class active in current icon selected
-        document.querySelector(`.mainMenu .${nameIconSelected} svg`).classList.remove('active')
+        document.querySelector(`.mainMenu #${nameIconSelected} svg`).classList.remove('active')
         // add new class active
         nameIconSelected = li.getAttribute('id')
         changeIconSelected()
@@ -12,7 +12,7 @@ liInMainMenu.forEach(function (li) {
 })
 
 function changeIconSelected() {
-    var svgSelected = document.querySelector(`.mainMenu .${nameIconSelected} svg`)
+    var svgSelected = document.querySelector(`.mainMenu #${nameIconSelected} svg`)
     svgSelected.classList.add('active')
 }
 
