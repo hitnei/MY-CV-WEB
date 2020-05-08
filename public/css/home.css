@@ -1,4 +1,4 @@
-.home {
+.homeSite {
     padding: 60px;
     height: 100%;
     box-sizing: border-box;
@@ -8,14 +8,14 @@
     justify-content: center;
 }
 
-.home h2 {
+.homeSite h2 {
     margin: 0;
     color: #222;
     font-size: 50px;
     line-height: 74px;
 }
 
-.home h4 {
+.homeSite h4 {
     margin: 0;
     color: #888;
     font-size: 21px;
