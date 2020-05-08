@@ -1,7 +1,4 @@
 .homeSite {
-    padding: 60px;
-    height: 100%;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
