@@ -1,10 +1,15 @@
 .mainMenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
     list-style-type: none;
     position: absolute;
     top: calc(10vh - 15px);
     right: calc(10vw - 100px);
     background-color: #FFF;
-    padding: 15px 20px;
+    padding: 15px 0;
     border-radius: 35px;
     box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
 }
@@ -13,8 +18,48 @@
     width: 30px;
     height: 50px;
     fill: #b5b6b7;
+    transition: fill 0.75s;
+}
+
+.mainMenu svg:hover {
+    fill: #fea621;
+    transition: fill 0.5s;
 }
 
 .mainMenu .active {
     fill: #fea621;
+    transition: all 0.5s;
+}
+
+.mainMenu .itemMenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainMenu .itemMenu:hover .linkText {
+    right: 70px;
+    opacity: 1;
+    transition: right 0.4s, opacity 0.4s;
+}
+
+.mainMenu .itemMenu a {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.mainMenu .itemMenu .linkText {
+    position: absolute;
+    right: 0;
+    background-color: #fea621;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    white-space: nowrap;
+    margin-top: 10px;
+    opacity: 0;
+    transition: right 0.4s, opacity 0.4s;
 }
