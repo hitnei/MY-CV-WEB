@@ -248,7 +248,8 @@
 
 .aboutMeSite .listFunFacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .aboutMeSite .listFunFacts .funFacts {
@@ -261,6 +262,7 @@
     border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.12);
     transition: all 0.3s;
+    margin-bottom: 15px;
 }
 
 .aboutMeSite .listFunFacts .funFacts:hover {
