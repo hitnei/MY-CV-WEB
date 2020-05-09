@@ -2,6 +2,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* setting scroll */
+
+::-webkit-scrollbar {
+    width: 0.4em;
+    height: 0.4em;
+    transition: width 0.3s;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {}
+
+/* end setting scroll */
+
 html {
     margin: 0;
     width: 100%;
@@ -49,16 +68,16 @@ body {
     height: 100%;
     box-sizing: border-box;
     overflow-y: scroll;
+    margin-right: 5px;
 }
 
-/* scroll */
-
-.contentSite>div {
+/* .contentSite>div:hover {
     padding: 60px;
     height: 100%;
     box-sizing: border-box;
     overflow-y: scroll;
-}
+    scroll-margin-right: 10px;
+} */
 
 /* page title */
 
