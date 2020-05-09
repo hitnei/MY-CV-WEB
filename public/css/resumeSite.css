@@ -2,17 +2,6 @@
     color: #222;
 }
 
-.resumeSite .resumeContent .title h2 {
-    font-size: 21px;
-}
-
-.resumeSite .resumeContent .title:after {
-    height: 20px;
-    width: 30px;
-    top: 10px;
-    right: -12px;
-}
-
 .resumeSite .resumeContent .mySelf {
     display: grid;
     grid-template-columns: 48% 4% 48%;
@@ -158,6 +147,7 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .resumeSite .resumeContent .mySelf .resumeItem .knowledgesList li {

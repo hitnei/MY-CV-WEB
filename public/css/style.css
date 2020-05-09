@@ -111,3 +111,14 @@ body {
 .contentSite .pageTitle h2 span {
     color: #fea621;
 }
+
+.contentSite .title h2 {
+    font-size: 21px;
+}
+
+.contentSite .title:after {
+    height: 20px;
+    width: 30px;
+    top: 10px;
+    right: -12px;
+}

@@ -1,0 +1,106 @@
+.contentSite .contactContent {
+    display: flex;
+}
+
+/* listContact */
+
+.contentSite .contactContent .listContact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.contentSite .contactContent .listContact .itemContact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+}
+
+.contentSite .contactContent .listContact .itemContact span {
+    font-size: 33px;
+    color: #fea621;
+}
+
+.contentSite .contactContent .listContact .itemContact h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0 0;
+}
+
+/* email */
+
+.contentSite .contactContent .sendMail .contentMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentSite .contactContent .sendMail .contentMail .leftMail input {
+    border: 2px solid #d5d6d7;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 0 0 20px;
+    padding: 12px 25px 10px 12px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, .1);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.contentSite .contactContent .sendMail .contentMail .leftMail input[value] {
+    color: #555;
+    font-weight: 500;
+}
+
+.contentSite .contactContent .sendMail .contentMail .rightMail {
+    width: 100%;
+}
+
+.contentSite .contactContent .sendMail .contentMail .rightMail textarea {
+    border: 2px solid #d5d6d7;
+    border-radius: 5px;
+    line-height: 1.4;
+    margin: 0 0 20px;
+    padding: 10px 25px 10px 12px;
+    width: 100%;
+    outline: none;
+    font-size: 1em;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    width: 100%;
+    box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    height: 240px;
+    resize: none;
+}
+
+.contentSite .contactContent .sendMail .btnSendMail {
+    padding: .8em 2.1em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #fea621;
+    color: #222;
+    background-color: #fff;
+    border-radius: 30px;
+    width: max-content;
+    transition: all 0.3s;
+}
+
+.contentSite .contactContent .sendMail .btnSendMail:hover {
+    background-color: #fea621;
+    color: #fff;
+    border: 2px solid #fea621;
+    cursor: pointer;
+    transition: all 0.3s;
+}
