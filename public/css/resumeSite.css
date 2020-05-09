@@ -1,0 +1,226 @@
+.resumeSite {
+    color: #222;
+}
+
+.resumeSite .resumeContent .title h2 {
+    font-size: 21px;
+}
+
+.resumeSite .resumeContent .title:after {
+    height: 20px;
+    width: 30px;
+    top: 10px;
+    right: -12px;
+}
+
+.resumeSite .resumeContent .mySelf {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+}
+
+.resumeSite .resumeContent .mySelf .resumeItem {
+    margin-bottom: 40px;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine {
+    display: flex;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart {
+    min-width: 90px;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart h5 {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart span {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.45em;
+    color: #a5a6a7;
+    text-align: right;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .divDivider {
+    width: 1px;
+    margin: 0 25px;
+    background-color: #eee;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .divDivider::before {
+    content: '';
+    display: block;
+    margin-top: 5px;
+    width: 17px;
+    height: 17px;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #fea621;
+    opacity: .25;
+    z-index: 0;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .divDivider::after {
+    content: '';
+    display: block;
+    margin-top: -13px;
+    width: 9px;
+    height: 9px;
+    margin-left: -4px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fea621;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .rightPart {
+    padding-bottom: 20px;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .rightPart h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .rightPart p {
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    margin: 0;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill h4 {
+    font-size: 13px;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill span {
+    font-size: 11px;
+    line-height: 1.1em;
+    position: relative;
+    float: right;
+    margin: 0;
+    color: #aaa;
+    font-weight: 500;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .bottom {
+    border: 1px solid #fea621;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 10px;
+    width: 100%;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .bottom div {
+    border-radius: 8px;
+    height: 8px;
+    background-color: #fea621;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .skill {
+    margin-bottom: 10px;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .skill:nth-child(1) .bottom div {
+    width: 85%;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .skill:nth-child(2) .bottom div {
+    width: 80%;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .skill:nth-child(3) .bottom div {
+    width: 75%;
+}
+
+.resumeSite .resumeContent .mySelf .rightResume .listCodeSkill .skill:nth-child(4) .bottom div {
+    width: 70%;
+}
+
+/* Knowledges */
+
+.resumeSite .resumeContent .mySelf .resumeItem .knowledgesList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resumeSite .resumeContent .mySelf .resumeItem .knowledgesList li {
+    background-color: #fea621;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 3px 4px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* Certificates */
+
+.resumeSite .resumeContent .certificates .listCertificates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate {
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 35% auto;
+    width: 48%;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certificateImage {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certificateImage img {
+    width: auto;
+    height: 25px;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certiContent {
+    padding: 20px 25px;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certiContent h4 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certiContent .idMember {
+    font-size: .8em;
+    color: #777;
+    display: block;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.resumeSite .resumeContent .certificates .listCertificates .certificate .certiContent .dateCerti {
+    font-size: .7em;
+    color: #777;
+    opacity: .7;
+}

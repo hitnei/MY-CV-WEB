@@ -6,7 +6,7 @@
 
 ::-webkit-scrollbar {
     width: 0.4em;
-    height: 0.4em;
+    height: 0.3em;
     transition: width 0.3s;
 }
 
