@@ -57,10 +57,25 @@ body {
     background-color: #FFF;
     border-radius: 30px;
     display: none;
+    transition: all 0.5s;
 }
 
 .showSite {
     display: unset;
+    animation: showSiteAni 0.5s ease-in;
+}
+
+@keyframes showSiteAni {
+    0% {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+        transform: rotate3d(0,0,0,0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform: rotate3d(1,1,1,1);
+    }
 }
 
 .contentSite>div {
