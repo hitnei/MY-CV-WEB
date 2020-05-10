@@ -17,7 +17,9 @@
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-button {}
+::-webkit-scrollbar-track {
+    margin: 20px 0px;
+}
 
 /* end setting scroll */
 
@@ -69,12 +71,12 @@ body {
     0% {
         opacity: 0;
         transform: scale(0.5, 0.5);
-        transform: rotate3d(0,0,0,0);
+        transform: rotate3d(0, 0, 0, 0);
     }
     100% {
         opacity: 1;
         transform: scale(1, 1);
-        transform: rotate3d(1,1,1,1);
+        transform: rotate3d(1, 1, 1, 1);
     }
 }
 
