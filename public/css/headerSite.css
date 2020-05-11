@@ -96,26 +96,24 @@
     margin-top: 50px;
 }
 
-.headerSite .headerContent .downloadCV input {
+.headerSite .headerContent .downloadCV a {
     padding: 12px 30px;
     border-radius: 30px;
     background: unset;
     border: 2px solid #FFF;
     cursor: pointer;
-    transition: background-color 0.5s, color 1s;
+    transition: all 0.5s, color 1s;
     box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, .22);
-}
-
-.headerSite .headerContent .downloadCV input[value] {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
 }
 
-.headerSite .headerContent .downloadCV input:hover {
+.headerSite .headerContent .downloadCV a:hover {
     background-color: #fff;
     color: #fea621;
-    transition: background-color 0.5s, color 1s;
+    transition: all 0.5s, color 1s;
 }
 
 /* .headerSite .headerContent .downloadCV input:focus {
