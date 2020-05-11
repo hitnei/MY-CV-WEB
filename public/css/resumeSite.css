@@ -214,3 +214,13 @@
     color: #777;
     opacity: .7;
 }
+
+@media only screen and (max-width: 1600px) {
+    .resumeSite .resumeContent .mySelf {
+        display: flex;
+        flex-direction: column;
+    }
+    .resumeSite .resumeContent .certificates .listCertificates .certificate .certificateImage img {
+        height: 20px;
+    }
+}

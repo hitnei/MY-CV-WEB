@@ -18,3 +18,9 @@
     font-size: 21px;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 1250px) {
+    .homeSite h2 {
+        font-size: 45px;
+    }
+}
