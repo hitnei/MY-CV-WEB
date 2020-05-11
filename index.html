@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/public/css/aboutMeSite.css">
     <link rel="stylesheet" href="/public/css/resumeSite.css">
     <link rel="stylesheet" href="/public/css/contact.css">
+    <link rel="stylesheet" href="/public/css/menuToggle.css">
 
     <!-- fonts -->
     <link
@@ -33,7 +34,7 @@
 
     <div class="container">
         <div class="wrapper">
-            <div class="headerSite">
+            <div id="headerSite" class="headerSite">
                 <div class="headerContent">
                     <div class="headerPhoto">
                         <img src="/public/images/personalImage.jpg" alt="Personal Photo">
@@ -43,6 +44,70 @@
                         <h2>Hoàng Phương Nhi</h2>
                         <h4>Web Developer</h4>
                     </div>
+
+
+                    <ul class="mainMenu">
+                        <li id="home" class="homeIcon itemMenu">
+                            <a href="#home">
+                                <span>
+                                    <svg class="iconMainMenu lnr lnr-home">
+                                        <use xlink:href="#lnr-home"></use>
+                                    </svg>
+                                </span>
+                                <span class="linkText">Home</span>
+                            </a>
+                        </li>
+                        <li id="aboutMe" class="aboutMe itemMenu">
+                            <a href="#aboutMe">
+                                <span>
+                                    <svg class="iconMainMenu lnr lnr-user">
+                                        <use xlink:href="#lnr-user"></use>
+                                    </svg>
+                                </span>
+                                <span class="linkText">About Me</span>
+                            </a>
+                        </li>
+                        <li id="resume" class="resume itemMenu">
+                            <a href="#resume">
+                                <span>
+                                    <svg class="iconMainMenu lnr lnr-graduation-hat">
+                                        <use xlink:href="#lnr-graduation-hat"></use>
+                                    </svg>
+                                </span>
+                                <span class="linkText">Resume</span>
+                            </a>
+                        </li>
+                        <!-- <li id="portfolio" class="portfolio itemMenu">
+                                <a href="#portfolio">
+                                    <span>
+                                        <svg class="iconMainMenu lnr lnr-briefcase">
+                                            <use xlink:href="#lnr-briefcase"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="linkText">Portfolio</span>
+                                </a>
+                            </li>
+                            <li id="blog" class="blog itemMenu">
+                                <a href="#blog">
+                                    <span>
+                                        <svg class="iconMainMenu lnr lnr-book">
+                                            <use xlink:href="#lnr-book"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="linkText">Blog</span>
+                                </a>
+                            </li> -->
+                        <li id="contact" class="contact itemMenu">
+                            <a href="#contact">
+                                <span>
+                                    <svg class="iconMainMenu lnr lnr-envelope">
+                                        <use xlink:href="#lnr-envelope"></use>
+                                    </svg>
+                                </span>
+                                <span class="linkText">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
 
                     <div class="headerSocial">
                         <ul>
@@ -550,74 +615,19 @@
                 </div>
             </div>
         </div>
+
+        <div id="menuToggle" class="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
-    <ul class="mainMenu">
-        <li id="home" class="homeIcon itemMenu">
-            <a href="#home">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-home">
-                        <use xlink:href="#lnr-home"></use>
-                    </svg>
-                </span>
-                <span class="linkText">Home</span>
-            </a>
-        </li>
-        <li id="aboutMe" class="aboutMe itemMenu">
-            <a href="#aboutMe">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-user">
-                        <use xlink:href="#lnr-user"></use>
-                    </svg>
-                </span>
-                <span class="linkText">About Me</span>
-            </a>
-        </li>
-        <li id="resume" class="resume itemMenu">
-            <a href="#resume">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-graduation-hat">
-                        <use xlink:href="#lnr-graduation-hat"></use>
-                    </svg>
-                </span>
-                <span class="linkText">Resume</span>
-            </a>
-        </li>
-        <!-- <li id="portfolio" class="portfolio itemMenu">
-            <a href="#portfolio">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-briefcase">
-                        <use xlink:href="#lnr-briefcase"></use>
-                    </svg>
-                </span>
-                <span class="linkText">Portfolio</span>
-            </a>
-        </li>
-        <li id="blog" class="blog itemMenu">
-            <a href="#blog">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-book">
-                        <use xlink:href="#lnr-book"></use>
-                    </svg>
-                </span>
-                <span class="linkText">Blog</span>
-            </a>
-        </li> -->
-        <li id="contact" class="contact itemMenu">
-            <a href="#contact">
-                <span>
-                    <svg class="iconMainMenu lnr lnr-envelope">
-                        <use xlink:href="#lnr-envelope"></use>
-                    </svg>
-                </span>
-                <span class="linkText">Contact</span>
-            </a>
-        </li>
-    </ul>
     </div>
 
     <script src="/public/js/bgAnimation.js"></script>
     <script src="/public/js/headerSite.js"></script>
     <script src="/public/js/mainMenu.js"></script>
+    <script src="/public/js/menuToggle.js"></script>
     <!-- <script src="/public/js/wheel.js"></script> -->
 </body>
 

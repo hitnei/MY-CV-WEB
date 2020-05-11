@@ -16,7 +16,7 @@
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart {
-    min-width: 90px;
+    min-width: 100px;
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart h5 {
@@ -222,5 +222,31 @@
     }
     .resumeSite .resumeContent .certificates .listCertificates .certificate .certificateImage img {
         height: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .resumeSite .resumeContent .certificates .listCertificates {
+        flex-direction: column;
+        align-items: center;
+    }
+    .resumeSite .resumeContent .certificates .listCertificates .certificate {
+        margin-bottom: 20px;
+    }
+    .resumeSite .resumeContent .certificates .listCertificates .certificate {
+        width: 100%;
+    }
+    .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart {
+        min-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .divDivider {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .resumeSite .resumeContent .mySelf .resumeItem .knowledgesList {
+        padding: 0;
     }
 }

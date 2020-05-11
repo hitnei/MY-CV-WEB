@@ -84,7 +84,7 @@
 
 .headerSite .headerContent .headerSocial ul li a:hover {
     opacity: 1;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, .2);
     transition: all 1s;
 }
 
@@ -126,4 +126,29 @@
     font-size: 11px;
     font-weight: 600;
     color: #FFF;
+}
+
+@media only screen and (max-width: 1250px) {
+    .headerSite {
+        position: absolute;
+        width: 100%;
+        max-width: 330px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fea621;
+        text-align: center;
+        overflow: auto;
+        transition: all .25s ease-in-out;
+        z-index: 1;
+        opacity: 0;
+        right: -390px;
+        transition: all 0.3s;
+        z-index: 2;
+    }
+    .openHeaderSite {
+        opacity: 1;
+        right: 0;
+        transition: all 0.5s;
+    }
 }

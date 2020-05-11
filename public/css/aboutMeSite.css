@@ -100,7 +100,7 @@
     border: 2px solid #e5e6e7;
     z-index: 0;
     border-radius: 20px;
-    margin: 45px 15px 10px 0;
+    margin: 45px 15px 15px 0;
 }
 
 .aboutMeSite .listTestimonials .Testimonials img {
@@ -149,6 +149,7 @@
     margin: 0;
     padding: 0 10px;
     justify-content: space-between;
+    overflow: scroll;
 }
 
 .aboutMeSite .listClient img {
@@ -292,8 +293,55 @@
     margin: 15px 0 10px;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 1251px) and (max-width: 1600px) {
     .aboutMeSite .listFunFacts .funFacts {
         padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutMeSite .listFunFacts .funFacts {
+        padding: 30px;
+    }
+    .aboutMeSite .aboutMeContent>div {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMeSite .myInfo ul {
+        padding: 0;
+    }
+    .aboutMeSite .infoList .infoBlock {
+        width: 100%;
+        padding: 0;
+    }
+    .aboutMeSite .listTestimonials .Testimonials {
+        margin-right: 0;
+    }
+    .aboutMeSite .listPrice {
+        align-items: center;
+    }
+    .aboutMeSite .listPrice>div {
+        margin-bottom: 20px;
+    }
+    .aboutMeSite .listPrice .priceBox {
+        width: 60%;
+    }
+    .aboutMeSite .listFunFacts {
+        align-items: center;
+    }
+    .aboutMeSite .listFunFacts .funFacts {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutMeSite .listPrice .priceBox {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .aboutMeSite .listPrice .priceBox {
+        width: 100%;
     }
 }

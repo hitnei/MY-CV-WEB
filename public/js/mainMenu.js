@@ -26,6 +26,20 @@ listLi.forEach(function (li) {
         // add class showSite
         var nowSite = document.getElementById(nameIconSelected + 'Site')
         nowSite.classList.add('showSite')
+
+        // add class active to last span
+        var spanClicked = li.querySelector('a span:last-child')
+        if (spanClicked.classList.contains('active')) {
+            var currentSpanSelected = document.getElementById(nameIconSelected).querySelector('a span:last-child')
+            console.log(currentSpanSelected);
+
+            currentSpanSelected.classList.remove('active')
+        } else {
+            spanClicked.classList.add('active')
+        }
+
+        // menuToggle
+        activeToggle() // from menuToggle.js
     })
 })
 
