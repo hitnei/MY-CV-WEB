@@ -6,4 +6,4 @@ Get source code:
 3. Enjoy or do anything you what<br><br>
 Have fun!
 
-Link test: https://my-cv-e092e.web.app/
+Link test: https://my-cv-e092e.firebaseapp.com/
