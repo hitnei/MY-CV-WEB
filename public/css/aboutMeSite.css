@@ -306,6 +306,7 @@
     .aboutMeSite .aboutMeContent>div {
         display: flex;
         flex-direction: column;
+        width: fit-content;
     }
     .aboutMeSite .myInfo ul {
         padding: 0;
