@@ -10,6 +10,9 @@
     flex-direction: column;
     margin-right: 30px;
     margin-top: 30px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .contentSite .contactContent .listContact .itemContact {

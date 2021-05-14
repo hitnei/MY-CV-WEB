@@ -54,6 +54,8 @@
 }
 
 .aboutMeSite .infoList .infoBlock {
+    display: flex;
+    align-items: center;
     width: 50%;
     margin-bottom: 10px;
     padding-right: 20px;
@@ -70,10 +72,14 @@
 
 .aboutMeSite .infoList .infoBlock .iconInfoBlock {
     width: 54px;
-    padding-right: 25px;
+    padding-right: 5px;
     font-size: 42px;
     color: #fea621;
     opacity: .7;
+}
+
+.aboutMeSite .infoList .infoBlock a {
+    text-decoration: none;
 }
 
 .aboutMeSite .infoList .infoBlock h4 {

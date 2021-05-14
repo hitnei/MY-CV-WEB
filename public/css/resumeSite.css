@@ -16,7 +16,7 @@
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart {
-    min-width: 100px;
+    min-width: 130px;
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart h5 {
@@ -68,7 +68,7 @@
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .rightPart {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .rightPart h4 {
@@ -145,6 +145,7 @@
 
 .resumeSite .resumeContent .mySelf .resumeItem .knowledgesList {
     list-style-type: none;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -235,9 +236,6 @@
     }
     .resumeSite .resumeContent .certificates .listCertificates .certificate {
         width: 100%;
-    }
-    .resumeSite .resumeContent .mySelf .leftResume .resumeItem .timeLine .leftPart {
-        min-width: 80px;
     }
 }
 

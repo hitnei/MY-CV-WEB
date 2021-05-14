@@ -140,6 +140,10 @@ body {
     right: -12px;
 }
 
+.link {
+    color: #000;
+}
+
 @media only screen and (max-width: 1600px) {
     .wrapper {
         width: 90vw;
@@ -163,10 +167,13 @@ body {
     .contentSite {
         border-radius: 0;
     }
+    .contentSite {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .contentSite>div {
-        padding: 30px;
+        padding: 15px;
     }
 }
